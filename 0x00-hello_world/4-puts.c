@@ -1,3 +1,4 @@
+#define DELIM "  \n\t"
 #include <stdio.h>
 
 /**
