@@ -5,3 +5,4 @@ unction that checks for alphabetic character.
 Function that prints the sign of a number.
 Function that computes the absolute value of an integer.
 Function that prints the last digit of a number.
+Function that adds two integers and returns the result.
