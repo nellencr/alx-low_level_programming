@@ -2,15 +2,12 @@
 #define MAIN_H
 /**
  * main - header file for protoypes
- * void protoypes (void)
- * @c: An input integer
- * @a: An input integer
- * @b: An input integer
- * int protoypes (int)
+ * void - protoypes (void)
+ * int - protoypes (int)
  */
-int _isupper(int c);
-int _isdigit(int c);
-int mul(int a, int b);
+int _isupper(int);
+int _isdigit(int);
+int mul(int, int);
 void print_numbers(void);
 void print_most_numbers(void);
 void more_numbers(void);
