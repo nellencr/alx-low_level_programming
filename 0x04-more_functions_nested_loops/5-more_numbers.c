@@ -8,11 +8,11 @@ void more_numbers(void)
 {
 	int i;
 
-	for (i = 1; i <= 10; i++)
+	for (i = 0; i <= 9; i++)
 	{
 		int num;
 
-		for (num = 1; num <= 14; num++)
+		for (num = 0; num <= 14; num++)
 		{
 			printf("%d", num);
 		}
