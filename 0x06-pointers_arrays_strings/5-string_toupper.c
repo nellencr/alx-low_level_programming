@@ -2,9 +2,11 @@
 /**
  * string_toupper - a function that changes all lowercase letters
  * a string to uppercase.
- * @n: an input string
+ * @s: an input string
  * Return: upper case string
- */char *string_toupper(char *s)
+ */
+
+char *string_toupper(char *s)
 {
 	int i = 0;
 
