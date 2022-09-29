@@ -3,3 +3,4 @@
  2-strlen_recursion.c - a function that returns the length of a string.
 3-factorial.c - function that return a factorial of a given number
  4-pow_recursion.c - a function that returns the value of x raised to the power of y.
+ 6-is_prime_number.c - a function that returns 1 if the input integer is a prime number, otherwise return 0.
