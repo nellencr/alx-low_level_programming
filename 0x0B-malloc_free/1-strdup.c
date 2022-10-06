@@ -18,6 +18,8 @@ char *_strdup(char *str)
 	newstr = malloc(strlen(str) + 1);
 	if (newstr == NULL)
 		return (0);
+	if (newstr == NULL)
+		return (NULL);
 	strcpy(newstr, str);
 
 	return (newstr);
