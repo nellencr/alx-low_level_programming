@@ -3,25 +3,51 @@
 #include <string.h>
 #include <stdlib.h>
 
+/**
+ * _strlen - return length of a string
+ *
+ * @s: char type
+ * Return:  length of string
+ */
+int _strlen(char *s)
+{
+	int a;
+
+	for (a = 0; s[a] != '\0'; a++)
+	{
+
+	}
+	return (a);
+}
 
 /**
- * _strdup - return pointer of newly allocated memory
- *
- * @str: char type
- * Return:  length of string
+ * *_strdup - function to return pointer to string
+ * @str: pointer to string array input
+ * Return: pointer to string created
  */
 
 char *_strdup(char *str)
 {
-	char *newstr;
+	char *ptr;
+	int size;
+	int x;
 
-	newstr = malloc(strlen(str) + 1);
-	if (newstr == NULL)
-		return (0);
-	if (newstr == NULL)
+	if (str == NULL)
+	{
 		return (NULL);
-	strcpy(newstr, str);
+	}
+	size = _strlen(str) + 1;
+	ptr = malloc(size * sizeof(char));
 
-	return (newstr);
+	x = 0;
+	while (x < size)
+	{
+		if (ptr == NULL)
+		{
+			return (NULL);
+	}
+		ptr[x] = str[x];
+		x++;
+	}
+	return (ptr);
 }
-
