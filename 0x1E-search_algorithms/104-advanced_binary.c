@@ -6,8 +6,8 @@
  *
  * @array: input array
  * @size: size of the array
- * @value: value to search 
- * Return: the index 
+ * @value: value to search
+ * Return: the index
  */
 int rec_search(int *array, size_t size, int value)
 {
@@ -47,7 +47,7 @@ int rec_search(int *array, size_t size, int value)
  *
  * @array: input array
  * @size: size of the array
- * @value:search  value 
+ * @value:search  value
  * Return: index number
  */
 int advanced_binary(int *array, size_t size, int value)
