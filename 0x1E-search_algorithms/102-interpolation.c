@@ -2,7 +2,7 @@
 /**
  *interpolation_search - searches for a value in sorted array using
  *interpolation
- *@array:pointer to first element of array 
+ *@array:pointer to first element of array
  *@size:number of elements in the array
  *@value:value to search for
  *Return:value not present, array is NULL -1, otherwise first index
