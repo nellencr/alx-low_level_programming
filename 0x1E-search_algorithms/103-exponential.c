@@ -2,9 +2,9 @@
 
 /**
   * _binary_search - Searches for a value in a sorted array
-  * @array: A pointer to the first element of the array 
-  * @left: The starting index of the sub array .
-  * @right: The ending index of the sub array 
+  * @array: A pointer to the first element of the array
+  * @neg: The starting index of the sub array.
+  * @pos: The ending index of the sub array
   * @value: The value to search input
   * Return: If the value is not present or the array is NULL, -1.
   *         Otherwise, the index where the value where is located.
@@ -42,8 +42,7 @@ int _binary_search(int *array, size_t neg, size_t pos, int value)
   *                      of integers using exponential search.
   * @array: A pointer to the first element in the array.
   * @size: The number of elements in the array.
-  * @value: The input value 
-  *
+  * @value: The input value
   * Return: If the value is not present or the array is NULL, -1.
   *         Otherwise, the index where the value is located.
   *
